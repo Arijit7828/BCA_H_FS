@@ -1,0 +1,10 @@
+.container{
+    position: absolute;
+    color: rgb(13, 16, 16);
+    left: 700px;
+
+}
+.qrcode{
+    position: absolute;
+    right: auto;
+}

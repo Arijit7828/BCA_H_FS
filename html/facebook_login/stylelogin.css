@@ -1,0 +1,66 @@
+.heading{
+    font-style: initial;
+    background-color: #3B5999;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.id{
+  position: absolute;
+  top: 15%;
+  right: 100px;
+  color: #ffffff;
+  font-family:'Arial Narrow';
+}
+.headname{
+    font-family:  'Tahoma';
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.bio{
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    float: right;
+    padding-right: 60%;
+}
+.createcolumn{
+    position: absolute;
+    float: right;
+    top: 200px;
+    left: 1000px;
+}
+.create{
+    position: absolute;
+    float: right;
+    top: 100px;
+    left: 1000px;
+    
+}
+.birthdate{
+    position: absolute;
+    left: 130px;
+    bottom: 3px;
+    text-align: left;
+
+}
+.age{
+    position: absolute;
+    right: 400px;
+    bottom: 7cm;
+
+    
+}
+.captions{
+    position: absolute;
+    right: 60px;
+    bottom: 6cm;
+}
+.button{
+    position: absolute;
+    right: 450px;
+    bottom: 5cm;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System</title>
+    <!-- Include necessary CSS and JS libraries -->
+    <link rel="stylesheet" href="attendancestyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Management System</h1>
+        <div id="qrCode"></div>
+        <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+
+    <!-- JavaScript for QR code generation -->
+    <script>
+        function generateQR() {
+            // Assuming you have a unique identifier for each user (e.g., user ID)
+            var userId = getUserId(); // Function to get the user ID
+
+            // Generate QR code with the user ID
+            var qr = new QRious({
+                element: document.getElementById('qrCode'),
+                value: userId,
+                size: 200
+            });
+        }
+
+        function getUserId() {
+            // Function to retrieve the user ID
+            // You may fetch it from the backend or have it stored in a session
+            // This function should return the user ID of the currently logged in user
+            // Example: return loggedInUserId;
+        }
+    </script>
+</body>
+</html> 
