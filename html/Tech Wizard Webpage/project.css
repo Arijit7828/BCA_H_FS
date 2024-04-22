@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    background-color: rgb(49, 5, 76);
+    
+}
+.head{
+    background-color: #570e6fa2;
+  padding: 20px;
+  text-align: center;
+    
+}
+.logo img {
+    width: 40px; 
+    height: auto; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+
+.companyname{
+    position: absolute;
+    left: 50px;
+    font-size: 250%;
+    color: white;
+    top: -5px;
+}
+.search{
+    position: absolute;
+    margin-left: 1350px;
+    bottom: 800px;
+}
+.button{
+    position: absolute;
+    margin-left: 1610px;
+    top: 5px;
+}
+.headhome{
+    position: absolute;
+    top: 10px;
+    left: 1140px;
+    color: white;
+}
+.headabout{
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+    color: white;
+
+}
+.headcontact{
+    position: absolute;
+    top: 10px;
+    left: 1280px;
+    color: white;
+
+}

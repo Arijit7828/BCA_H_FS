@@ -1,0 +1,12 @@
+.body{
+
+}
+@keyframes move{
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  margin-right: 100%;
+}
